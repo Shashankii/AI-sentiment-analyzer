@@ -1,8 +1,6 @@
-# AI-sentiment-analyzer
-A Streamlit app that performs sentiment analysis on user reviews using NLP
-
-
 # 🧠 AI Sentiment Analyzer
+
+A Streamlit app that performs sentiment analysis on user reviews using NLP
 
 This project is a simple web app that uses AI to analyze the **sentiment of text reviews** (positive, negative, or neutral) using natural language processing.
 
