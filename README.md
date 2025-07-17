@@ -22,10 +22,6 @@ This web app lets you upload reviews and instantly detects whether the sentiment
    - A preview of your data
    - Sentiment predictions for each review
 
-> 🔍 Make sure your CSV has a column named: `Review`  
-(Exactly like that – capital `R`)
-
----
 
 ## ✅ Features
 
