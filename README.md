@@ -1,39 +1,59 @@
+
 # 🧠 AI Sentiment Analyzer
 
-A Streamlit app that performs sentiment analysis on user reviews using NLP
+This web app lets you upload reviews and instantly detects whether the sentiment is **Positive**, **Negative**, or **Neutral** using a transformer-based NLP model. Perfect for analyzing customer feedback, survey responses, or social media comments.
 
-This project is a simple web app that uses AI to analyze the **sentiment of text reviews** (positive, negative, or neutral) using natural language processing.
-
-## 📂 How It Works
-
-1. Upload a CSV file containing a column named **'Review'**
-2. The app processes each review and classifies it as:
-   - 👍 Positive
-   - 😐 Neutral
-   - 👎 Negative
-3. You can see:
-   - A preview of your data
-   - Sentiment labels
-   - Download option (coming soon)
-   - Visualization of overall sentiment distribution (coming soon)
+---
 
 ## 🚀 Live Demo
 
-👉 [Click here to try the live app](https://ai-sentiment-analyzer-kkczqwgftyzpwxd4wv6vam.streamlit.app/)  
+👉 **[Click here to try the live app](https://ai-sentiment-analyzer-kkczqwgftyzpwxd4wv6vam.streamlit.app/)**
+
+📂 **Test it instantly** with this sample file:  
+[Download sample_reviews.csv](https://raw.githubusercontent.com/Shashankii/AI-sentiment-analyzer/main/sample_reviews.csv)
+
+---
+
+## 📋 How to Use the App
+
+1. Click the live demo link above.
+2. Click **“Browse files”** and upload the CSV file you just downloaded.
+3. The app will show:
+   - A preview of your data
+   - Sentiment predictions for each review
+
+> 🔍 Make sure your CSV has a column named: `Review`  
+(Exactly like that – capital `R`)
+
+---
+
+## ✅ Features
+
+- Upload your own CSV file with text reviews
+- Auto-classifies each review as:
+  - 👍 Positive
+  - 😐 Neutral
+  - 👎 Negative
+- View sentiment predictions in real-time
 
 
-## 🛠 Tech Stack
+---
+
+## 📦 Tech Stack
 
 - Python
 - Streamlit
-- Transformers (HuggingFace)
+- Transformers (from Hugging Face)
 - Pandas
 
-## 📦 Setup Instructions (for local run)
+---
+
+## 🧑‍💻 Run Locally
 
 ```bash
 git clone https://github.com/Shashankii/AI-sentiment-analyzer.git
 cd AI-sentiment-analyzer
 pip install -r requirements.txt
 streamlit run sentiment_app.py
+
 
