@@ -10,7 +10,7 @@ This web app lets you upload reviews and instantly detects whether the sentiment
 👉 **[Click here to try the live app](https://ai-sentiment-analyzer-kkczqwgftyzpwxd4wv6vam.streamlit.app/)**
 
 📂 **Test it instantly** with this sample file:  
-[Download sample_reviews.csv](https://raw.githubusercontent.com/Shashankii/AI-sentiment-analyzer/main/sample_reviews.csv)
+[Download sample_reviews.csv](https://raw.githubusercontent.com/Shashankii/AI-sentiment-analyzer/refs/heads/main/large_sample_reviews.csv)
 
 ---
 
