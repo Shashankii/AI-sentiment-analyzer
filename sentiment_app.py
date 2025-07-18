@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ HEAD
 import streamlit as st
 import pandas as pd
 from transformers import pipeline
@@ -36,7 +36,7 @@ if uploaded_file is not None:
         st.dataframe(df[["Review", "Sentiment"]])
     else:
         st.error("❌ The CSV file must have a column named 'Review'")
-=======
+
 import streamlit as st
 import pandas as pd
 from transformers import pipeline
@@ -74,4 +74,4 @@ if uploaded_file is not None:
         st.dataframe(df[["Review", "Sentiment"]])
     else:
         st.error("❌ The CSV file must have a column named 'Review'")
->>>>>>> 68ecc9d0e83f3d5c0f435f031ff16584d41d36bf
+
