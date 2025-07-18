@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 streamlit
 pandas
 textblob
 transformers
+
+
+streamlit
+pandas
 
