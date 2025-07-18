@@ -1,7 +1,13 @@
- HEAD
 import streamlit as st
 import pandas as pd
-from transformers import pipeline
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.naive_bayes import MultinomialNB
+import joblib
+
+# Load pre-trained sentiment analysis model
+classifier = joblib.load("sentiment_model.pkl")  # Make sure this file exists
+
+
 
 # Load pre-trained sentiment analysis model
 classifier = pipeline("sentiment-analysis")
