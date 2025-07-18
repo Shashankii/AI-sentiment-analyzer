@@ -1,6 +1,5 @@
-import pandas as pd
 import streamlit as st
-from textblob import TextBlob
+from transformers import pipeline
 
 # Title of the app
 st.title("🧠 AI Sentiment Analyzer")
