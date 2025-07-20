@@ -33,7 +33,7 @@ Libraries: transformers, pandas, streamlit, io
 
 📸 App Preview
 
-![Screenshot]()
+![Screenshot](https://github.com/Shashankii/AI-sentiment-analyzer/blob/main/app%20screenshot.png)
 
 
 📁 How to Use
