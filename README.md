@@ -54,6 +54,14 @@ Upload the file using the provided uploader.
 The app will process and display the sentiment analysis results.
 
 
+💡 Use Cases
+
+Customer feedback analysis
+Social media sentiment tagging
+Product review insights
+Brand monitoring
+
+
 🧠 Behind the Scenes
 
 The app uses the Hugging Face pipeline() API for sentiment classification. It accepts raw text as input and outputs:
