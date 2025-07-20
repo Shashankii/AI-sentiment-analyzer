@@ -26,6 +26,9 @@ This project is a simple and powerful AI Sentiment Analyzer built using Python a
 🔍 Uses Pre-trained NLP Models: Built on top of Hugging Face's pipeline("sentiment-analysis")
 
 
+--
+
+
 🛠 Tech Stack
 
 Frontend: Streamlit
@@ -36,11 +39,14 @@ Model: Hugging Face Transformers (BERT-based sentiment analysis)
 
 Libraries: transformers, pandas, streamlit, io
 
+--
 
 📸 App Preview
 
 ![Screenshot](https://github.com/Shashankii/AI-sentiment-analyzer/blob/main/app%20screenshot.png)
 
+
+--
 
 📁 How to Use
 
@@ -56,6 +62,7 @@ Prepare a CSV file with a column titled Review.
 Upload the file using the provided uploader.
 The app will process and display the sentiment analysis results.
 
+--
 
 💡 Use Cases
 
@@ -67,13 +74,18 @@ Product review insights
 
 Brand monitoring
 
+--
+
 
 🧠 Behind the Scenes
 
 The app uses the Hugging Face pipeline() API for sentiment classification. It accepts raw text as input and outputs:
+
 Label: Positive / Negative / Neutral
+
 Score: Confidence value from 0 to 1
-Batch processing is supported via CSV reading with pandas.
+
+Batch processing is supported via CSV reading with pandas
 
 
 
