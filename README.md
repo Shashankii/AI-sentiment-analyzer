@@ -17,10 +17,13 @@ This project is a simple and powerful AI Sentiment Analyzer built using Python a
 
 🚀 Features
 
-🎯 Instant Sentiment Prediction: Enter a review and get real-time prediction—Positive, Negative, or Neutral.
-📂 Batch Sentiment Analysis: Upload a CSV file containing a Review column to analyze sentiments for all rows.
-📊 Clean UI/UX: Intuitive interface designed using Streamlit for seamless interaction.
-🔍 Uses Pre-trained NLP Models: Built on top of Hugging Face's pipeline("sentiment-analysis").
+🎯 Instant Sentiment Prediction: Enter a review and get real-time prediction—Positive, Negative, or Neutral
+
+📂 Batch Sentiment Analysis: Upload a CSV file containing a Review column to analyze sentiments for all rows
+
+📊 Clean UI/UX: Intuitive interface designed using Streamlit for seamless interaction
+
+🔍 Uses Pre-trained NLP Models: Built on top of Hugging Face's pipeline("sentiment-analysis")
 
 
 🛠 Tech Stack
@@ -57,8 +60,11 @@ The app will process and display the sentiment analysis results.
 💡 Use Cases
 
 Customer feedback analysis
+
 Social media sentiment tagging
+
 Product review insights
+
 Brand monitoring
 
 
