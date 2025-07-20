@@ -1,5 +1,5 @@
 
-# 🧠 AI Sentiment Analyzer
+## 🧠 AI Sentiment Analyzer
 
 This web app lets you upload reviews and instantly detects whether the sentiment is **Positive**, **Negative**, or **Neutral** using a transformer-based NLP model. Perfect for analyzing customer feedback, survey responses, or social media comments.
 
@@ -26,8 +26,11 @@ This project is a simple and powerful AI Sentiment Analyzer built using Python a
 🛠 Tech Stack
 
 Frontend: Streamlit
+
 Backend: Python
+
 Model: Hugging Face Transformers (BERT-based sentiment analysis)
+
 Libraries: transformers, pandas, streamlit, io
 
 
@@ -58,40 +61,10 @@ Label: Positive / Negative / Neutral
 Score: Confidence value from 0 to 1
 Batch processing is supported via CSV reading with pandas.
 
-📌 To Run Locally
-
-git clone https://github.com/your-username/ai-sentiment-analyzer.git
-cd ai-sentiment-analyzer
-pip install -r requirements.txt
-streamlit run sentiment_app.py
 
 
 
-1. Click the live demo link above.
-2. Click **“Browse files”** and upload the CSV file you just downloaded.
-3. The app will show:
-   - A preview of your data
-   - Sentiment predictions for each review
 
-
-## ✅ Features
-
-- Upload your own CSV file with text reviews
-- Auto-classifies each review as:
-  - 👍 Positive
-  - 😐 Neutral
-  - 👎 Negative
-- View sentiment predictions in real-time
-
-
----
-
-## 📦 Tech Stack
-
-- Python
-- Streamlit
-- Transformers (from Hugging Face)
-- Pandas
 
 
 
