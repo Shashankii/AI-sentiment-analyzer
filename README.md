@@ -93,14 +93,7 @@ streamlit run sentiment_app.py
 - Transformers (from Hugging Face)
 - Pandas
 
----
 
-## 🧑‍💻 Run Locally
 
-```bash
-git clone https://github.com/Shashankii/AI-sentiment-analyzer.git
-cd AI-sentiment-analyzer
-pip install -r requirements.txt
-streamlit run sentiment_app.py
 
 
